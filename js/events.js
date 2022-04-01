@@ -1,4 +1,6 @@
 function onClickWeeklyMovies() {
+    $("#list-container div").empty();
+
   getMoviesList();
 
   $("#list-container").show();
