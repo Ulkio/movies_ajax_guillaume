@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Je sais pas quoi regarder</h1>
+        <hr>
+    </header>
+    <aside>
+        <div class="toolbar">
+            <a id="weekly-movies">Films de la semaine</a>
+            <a id="search-movies">Rechercher un film</a>
+        </div>
+    </aside>
+    <main>
+        <div id="list-container">
+            <div id="movies-list"></div>
+        </div>
+        <div id="search-container">
+            <div id="movies-search">
+                <form id="search-form">
+                    <label for="name">Nom :</label>
+                    <input id="search-value" type="text">
+                    <input id="search-button" type="button" value="Rechercher">
+                </form>
+            </div>
+            <div id="movies-selector">
+                <div id="movies-searched">
+
+                </div>
+                <div id="movie-details">
+                </div>
+            </div>
+            <div id="pages-container">
+                <div id="pages">
+                    <a id="previous">◄</a>
+                    <a id="next">►</a>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </main>
+
+    </div>
+
+    <script src="js/utilities.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/api-functions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
